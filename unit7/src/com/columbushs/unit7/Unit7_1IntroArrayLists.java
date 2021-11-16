@@ -1,7 +1,6 @@
 package com.columbushs.unit7;
 
 import java.util.ArrayList;
-import java.util.List;
 
 
 public class Unit7_1IntroArrayLists {
@@ -14,9 +13,12 @@ public class Unit7_1IntroArrayLists {
 
 	//Need import statement.
 	
+	//How to call: 	ArrayList<DataType> variableName;
+	//DataTypes are not primitives but can be wrapper classes: Boolean, character, integer
 	
-	
-	
+	ArrayList<Integer> arrayList1 = new ArrayList<Integer>();
+	ArrayList<String> arrayList2 = new ArrayList<String>(5);
+	ArrayList<String> arrayList3 = new ArrayList<String>();
 	
 	
 	
