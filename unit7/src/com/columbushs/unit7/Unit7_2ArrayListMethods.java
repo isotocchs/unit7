@@ -10,7 +10,7 @@ public class Unit7_2ArrayListMethods {
 		//.size returns an int with the number of elements in arraylist
 		
 		ArrayList<Integer> a1 =  new ArrayList<Integer>(10);
-		System.out.println(a1.size());
+		//System.out.println(a1.size());
 		
 		//.add(x) appends element to the end of the arraylist
 		a1.add(24);
@@ -18,14 +18,14 @@ public class Unit7_2ArrayListMethods {
 		a1.add(15);
 		a1.add(456);
 		a1.add(789);
-		System.out.println(a1.size());
+		//System.out.println(a1.size());
 		
 		//.get(index) gets what's in that specific index in the arraylist
 		// if you want to get the very last element you can use a1.get(a1.size()-1)
 		
-		for (int i = 0; i<a1.size(); i++) {
-			System.out.println(a1.get(i));
-		}
+//		for (int i = 0; i<a1.size(); i++) {
+//			System.out.println(a1.get(i));
+//		}
 		
 		//.add(index, x) adds element to the arraylist in specific index position
 		// and moves what was already there to the right. 
@@ -42,10 +42,10 @@ public class Unit7_2ArrayListMethods {
 		//.remove(index) removes the element in the array at the index position
 		//moves everything after it to the left
 		//Size and index goes down
-		//to remove last thing you can use .size-1
+		//to remove last thing you can use ai.remove(ai.size-1)
 		a1.remove(1);
 		
-		//a1.remove(a1.size()-1);
+		a1.remove(a1.size()-1);
 //		for (int i = 0; i<a1.size(); i++) {
 //			System.out.println(a1.get(i));
 //		}

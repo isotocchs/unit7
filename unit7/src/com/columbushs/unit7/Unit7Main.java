@@ -8,10 +8,10 @@ public class Unit7Main {
 		
 		
 		Unit7_2ArrayListMethods arrayListMethods = new Unit7_2ArrayListMethods();
-		//arrayListMethods.arrayMethods();
+		arrayListMethods.arrayMethods();
 		
 		Unit7_3ArrayListTraversing arrayListTrav = new Unit7_3ArrayListTraversing();
-		arrayListTrav.arrayListTrav();
+		//arrayListTrav.arrayListTrav();
 		
 		
 
