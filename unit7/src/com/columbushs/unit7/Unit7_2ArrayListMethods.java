@@ -56,9 +56,9 @@ public class Unit7_2ArrayListMethods {
 		
 		a1.set(2, 22);
 		
-//		for (int i = 0; i<a1.size(); i++) {
-//			System.out.println(a1.get(i));
-//		}
+		for (int i = 0; i<a1.size(); i++) {
+			System.out.println(a1.get(i));
+		}
 		
 		//Passsing ArrayList to another method
 		//otherMethod(a1);
@@ -66,7 +66,7 @@ public class Unit7_2ArrayListMethods {
 		
 	}
 	
-//	public void otherMethod(ArrayList arr) {
+//	public void otherMethod(ArrayList<Integer> arr) {
 //		
 //		arr.set(2, "Apple");
 //		
@@ -95,8 +95,8 @@ public class Unit7_2ArrayListMethods {
 //		ArrayList<Integer> a2 =  new ArrayList<Integer>(10);
 //		return a2;
 //	}
-//	
-//	public ArrayList<String> otherMethod4() {
+////	
+//	public ArrayList<Integer> otherMethod4() {
 //		ArrayList<Integer> a2 =  new ArrayList<Integer>(10);
 //		return a2;
 //	}
