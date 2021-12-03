@@ -32,9 +32,14 @@ public class Unit7Main {
 		arrayListStr.add("Berry");
 		
 		Unit7_5Searching searching = new Unit7_5Searching();
-		System.out.println(searching.whereIsTheNumber(3, arrayListInts));
+		//System.out.println(searching.whereIsTheNumber(3, arrayListInts));
 		
-		System.out.println(searching.whereIsTheString("Grapes", arrayListStr));
+		//System.out.println(searching.whereIsTheString("Tom", arrayListStr));
+		
+		Unit7_6Sorting sorting = new Unit7_6Sorting();
+		sorting.sortStuff(arrayListInts);
+		
+		
 		
 
 	}
