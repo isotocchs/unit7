@@ -9,7 +9,9 @@ public class Unit7_2ArrayListMethods {
 		
 		//.size returns an int with the number of elements in arraylist
 		
-		ArrayList<Integer> a1 =  new ArrayList<Integer>(10);
+		int[] intarray = {3,56,23,45,18};
+		
+		ArrayList<Integer> a1 =  new ArrayList<Integer>();
 		//System.out.println(a1.size());
 		
 		//.add(x) appends element to the end of the arraylist
@@ -18,7 +20,9 @@ public class Unit7_2ArrayListMethods {
 		a1.add(15);
 		a1.add(456);
 		a1.add(789);
-		//System.out.println(a1.size());
+		//System.out.println(intarray);
+		
+		//System.out.println(a1);
 		
 		//.get(index) gets what's in that specific index in the arraylist
 		// if you want to get the very last element you can use a1.get(a1.size()-1)
@@ -56,9 +60,9 @@ public class Unit7_2ArrayListMethods {
 		
 		a1.set(2, 22);
 		
-		for (int i = 0; i<a1.size(); i++) {
-			System.out.println(a1.get(i));
-		}
+//		for (int i = 0; i<a1.size(); i++) {
+//			System.out.println(a1.get(i));
+//		}
 		
 		//Passsing ArrayList to another method
 		//otherMethod(a1);
