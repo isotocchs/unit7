@@ -6,11 +6,13 @@ public class Unit7Main {
 
 	public static void main(String[] args) {
 
-		//Unit7_1IntroArrayLists introObj = new Unit7_1IntroArrayLists();
+        System.out.println("------------------");
+
+		Unit7_1IntroArrayLists introObj = new Unit7_1IntroArrayLists();
 		
 		
 		Unit7_2ArrayListMethods arrayListMethods = new Unit7_2ArrayListMethods();
-		//arrayListMethods.arrayMethods();
+		arrayListMethods.arrayMethods();
 	
 		Unit7_3ArrayListTraversing arrayListTrav = new Unit7_3ArrayListTraversing();
 		//arrayListTrav.arrayListTrav();
@@ -73,26 +75,26 @@ public class Unit7Main {
 		//System.out.println(str1.compareTo(str2));
 		//System.out.println(str2.compareTo(str1));
 		
-		ArrayList<String> reverseAlph = new ArrayList<String>();
-		reverseAlph.add("Killer");
-		reverseAlph.add("App");
-		reverseAlph.add("Time");
-		reverseAlph.add("Go");
-		reverseAlph.add("Fill");
-		reverseAlph.add("Susan");
-		reverseAlph.add("Zeta");
+		// ArrayList<String> reverseAlph = new ArrayList<String>();
+		// reverseAlph.add("Killer");
+		// reverseAlph.add("App");
+		// reverseAlph.add("Time");
+		// reverseAlph.add("Go");
+		// reverseAlph.add("Fill");
+		// reverseAlph.add("Susan");
+		// reverseAlph.add("Zeta");
 		
-		String worded=null;
-		for (int i=0;i<reverseAlph.size();i++) {
-			for(int k=reverseAlph.size()-1;k>i;k--) {
-				if (reverseAlph.get(i).compareTo(reverseAlph.get(k))>0)
-					worded = reverseAlph.get(i);
-				reverseAlph.set(i, reverseAlph.get(k));
-				reverseAlph.set(k, worded);
+		// String worded=null;
+		// for (int i=0;i<reverseAlph.size();i++) {
+		// 	for(int k=reverseAlph.size()-1;k>i;k--) {
+		// 		if (reverseAlph.get(i).compareTo(reverseAlph.get(k))>0)
+		// 			worded = reverseAlph.get(i);
+		// 		reverseAlph.set(i, reverseAlph.get(k));
+		// 		reverseAlph.set(k, worded);
 				
-			}
-		}
-		System.out.println(reverseAlph);
+		// 	}
+		// }
+		// System.out.println(reverseAlph);
 		
 //		List<String> students = new ArrayList<String>();
 //		students.add("Alex");
@@ -112,6 +114,10 @@ public class Unit7Main {
 //		for(String str:students) {
 //			System.out.print(str+" ");
 //		}
+
+
+System.out.println("------------------");
+
 
 	}
 	

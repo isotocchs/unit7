@@ -17,8 +17,12 @@ public class Unit7_1IntroArrayLists {
 	//DataTypes are not primitives but can be wrapper classes: Boolean, character, integer
 	
 	ArrayList<Integer> varaibleName = new ArrayList<Integer>();
+	ArrayList<Character> arrayListName = new ArrayList<Character>();
 	ArrayList<String> arrayList2 = new ArrayList<String>(5);
+	
 	ArrayList<String> arrayList3 = new ArrayList<String>();
+
+	ArrayList<Double> doubleArrayList = new ArrayList<Double>();
 	
 	
 	
