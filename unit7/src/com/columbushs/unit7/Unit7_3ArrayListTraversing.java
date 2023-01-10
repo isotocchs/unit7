@@ -30,7 +30,7 @@ public class Unit7_3ArrayListTraversing {
 //			i++;
 //		}
 		
-		for (Integer fruits:a1) {
+		for (String fruits:stringArrayList) {
 			
 			System.out.println(fruits);
 				

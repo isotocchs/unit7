@@ -58,7 +58,7 @@ public class Unit7_6Sorting {
 		
 		Collections.shuffle(arrLis);
 		
-		for(int index = 0;index<arrLis.size();index+=3) {
+		for(int index = 0;index<arrLis.size();index+=4) {
 			arrLis.add(index,"//////////////////////");
 		}
 		for (String names:arrLis) {

@@ -20,7 +20,8 @@ public class Unit7_2ArrayListMethods {
 		a1.add(15);
 		a1.add(456);
 		a1.add(789);
-		//System.out.println(intarray);
+//		System.out.println(intarray);
+//		System.out.println(a1);
 		
 		//System.out.println(a1);
 		
@@ -36,20 +37,20 @@ public class Unit7_2ArrayListMethods {
 		// Size and index goes up
 		// if you put an index value that is not in the arrayList it gives you an error
 		
-		a1.add(2,56);
-		//a1.add(10,100);
+//		a1.add(2,56);
+//		//a1.add(10,100);
 //		for (int i = 0; i<a1.size(); i++) {
 //			System.out.println(a1.get(i));
 //		}
 		
-		
+		//System.out.println("////////////");
 		//.remove(index) removes the element in the array at the index position
 		//moves everything after it to the left
 		//Size and index goes down
 		//to remove last thing you can use ai.remove(ai.size-1)
-		a1.remove(1);
-		
-		a1.remove(a1.size()-1);
+//		a1.remove(1);
+//		
+//		a1.remove(a1.size()-1);
 //		for (int i = 0; i<a1.size(); i++) {
 //			System.out.println(a1.get(i));
 //		}
@@ -60,45 +61,49 @@ public class Unit7_2ArrayListMethods {
 		
 		a1.set(2, 22);
 		
-//		for (int i = 0; i<a1.size(); i++) {
-//			System.out.println(a1.get(i));
-//		}
+		for (int i = 0; i<a1.size(); i++) {
+			System.out.println(a1.set(i,34));
+		}
+		
+		for (int i = 0; i<a1.size(); i++) {
+			System.out.println(a1.get(i));
+		}
 		
 		//Passsing ArrayList to another method
-		//otherMethod(a1);
-		//otherMethod1(a1);
+		otherMethod(a1);
+		otherMethod2(a1);
 		
 	}
 	
-//	public void otherMethod(ArrayList<Integer> arr) {
-//		
-//		arr.set(2, "Apple");
-//		
-//		for (int i = 0; i<arr.size(); i++) {
-//			System.out.println(arr.get(i));
-//		}
-//		
-//		
-//	}
+	public void otherMethod(ArrayList<Integer> arr) {
+		
+		arr.set(2, 34);
+		
+		for (int i = 0; i<arr.size(); i++) {
+			System.out.println(arr.get(i));
+		}
+		
+		
+	}
 	
 	
 	
-//	public void otherMethod2(ArrayList<Integer> arr) {
-//		
-//		arr.set(2, "Apple");
-//		
-//		for (int i = 0; i<arr.size(); i++) {
-//			System.out.println(arr.get(i));
-//		}
-//		
-//	}
+	public void otherMethod2(ArrayList<Integer> arr) {
+		
+		arr.set(2, 24);
+		
+		for (int i = 0; i<arr.size(); i++) {
+			System.out.println(arr.get(i));
+		}
+		
+	}
 	
 	//same concept for returning
 	
-//	public ArrayList otherMethod3() {
-//		ArrayList<Integer> a2 =  new ArrayList<Integer>(10);
-//		return a2;
-//	}
+	public ArrayList otherMethod3() {
+		ArrayList<Integer> a2 =  new ArrayList<Integer>(10);
+		return a2;
+	}
 ////	
 //	public ArrayList<Integer> otherMethod4() {
 //		ArrayList<Integer> a2 =  new ArrayList<Integer>(10);

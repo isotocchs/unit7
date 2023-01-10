@@ -4,8 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Unit7Main {
+	
+	
 
 	public static void main(String[] args) {
+		
+		
+		
 
 		//Unit7_1IntroArrayLists introObj = new Unit7_1IntroArrayLists();
 		
@@ -48,16 +53,16 @@ public class Unit7Main {
 		ArrayList<String> Class = new ArrayList<String>();
 		Class.add("Alfonso, Gustavo");
 		//Class.add("Andretta, Jan");
-		//Class.add("Arisso, Francisco");
-		//Class.add("Callejas, Roberto");
-		//Class.add("Clark, Michael");
+		Class.add("Arisso, Francisco");
+		Class.add("Callejas, Roberto");
+		Class.add("Clark, Michael");
 		Class.add("Cunat, Javier");
-		//Class.add("Dickens, Matthew");
+		Class.add("Dickens, Matthew");
 		Class.add("Fernandez, Alessandro");
-		//Class.add("Ferrer, Christopher");
-		//Class.add("Gonzalez, Erick");
-		//Class.add("Gonzalez, Samuel");
-		//Class.add("Kakouris, George");
+		Class.add("Ferrer, Christopher");
+		Class.add("Gonzalez, Erick");
+		Class.add("Gonzalez, Samuel");
+		Class.add("Kakouris, George");
 		Class.add("Martinez, Sebastian");
 		Class.add("Quintana, Andrew");
 		Class.add("Sedano, Nicolas");
@@ -65,8 +70,26 @@ public class Unit7Main {
 		Class.add("Solorzano, Felipe");
 		//Class.add("Tonanez, Lucas");
 		
+//		Class.add("Group 1");
+//		Class.add("Group 2");
+//		Class.add("Group 3");
+//		Class.add("Group 4");
+//		Class.add("Group 5");
+//		Class.add("Group 6");
+//		Class.add("Group 7");
+//		Class.add("Group 8");
+//		Class.add("Group 9");
+		
+//		System.out.println(Class.size());
+//		System.out.println(Class.remove(3));
+//		System.out.println(Class.size());
+		
 		//System.out.print(Class);
-		//sorting.randomTeams(Class);
+		sorting.randomTeams(Class);
+//		String str = "0";
+//		str+=str+0+8;
+//		String zee = "Z";
+//		System.out.println(str);
 		
 		String str1= "Apple";
 		String str2= "Simpl";
@@ -74,26 +97,26 @@ public class Unit7Main {
 		//System.out.println(str1.compareTo(str2));
 		//System.out.println(str2.compareTo(str1));
 		
-		ArrayList<String> reverseAlph = new ArrayList<String>();
-		reverseAlph.add("Killer");
-		reverseAlph.add("App");
-		reverseAlph.add("Time");
-		reverseAlph.add("Go");
-		reverseAlph.add("Fill");
-		reverseAlph.add("Susan");
-		reverseAlph.add("Zeta");
-		
-		String worded=null;
-		for (int i=0;i<reverseAlph.size();i++) {
-			for(int k=reverseAlph.size()-1;k>i;k--) {
-				if (reverseAlph.get(i).compareTo(reverseAlph.get(k))>0)
-					worded = reverseAlph.get(i);
-				reverseAlph.set(i, reverseAlph.get(k));
-				reverseAlph.set(k, worded);
-				
-			}
-		}
-		System.out.println(reverseAlph);
+//		ArrayList<String> reverseAlph = new ArrayList<String>();
+//		reverseAlph.add("Killer");
+//		reverseAlph.add("App");
+//		reverseAlph.add("Time");
+//		reverseAlph.add("Go");
+//		reverseAlph.add("Fill");
+//		reverseAlph.add("Susan");
+//		reverseAlph.add("Zeta");
+//		
+//		String worded=null;
+//		for (int i=0;i<reverseAlph.size();i++) {
+//			for(int k=reverseAlph.size()-1;k>i;k--) {
+//				if (reverseAlph.get(i).compareTo(reverseAlph.get(k))>0)
+//					worded = reverseAlph.get(i);
+//				reverseAlph.set(i, reverseAlph.get(k));
+//				reverseAlph.set(k, worded);
+//				
+//			}
+//		}
+		//System.out.println(reverseAlph);
 		
 //		List<String> students = new ArrayList<String>();
 //		students.add("Alex");
