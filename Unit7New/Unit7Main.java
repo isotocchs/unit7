@@ -15,7 +15,7 @@ public class Unit7Main {
 		// arrayListMethods.arrayMethods();
 	
 		Unit7_3ArrayListTraversing arrayListTrav = new Unit7_3ArrayListTraversing();
-		arrayListTrav.arrayListTrav();
+		// arrayListTrav.arrayListTrav();
 		
 		ArrayList<Integer> arrayListInts =  new ArrayList<Integer>();
 		arrayListInts.add(10);
@@ -32,6 +32,9 @@ public class Unit7Main {
 		arrayListStr.add("Grapes");
 		arrayListStr.add("Mango");
 		arrayListStr.add("Berry");
+
+		Unit7_4ArrayListAlgorithms algo = new Unit7_4ArrayListAlgorithms();
+		algo.findMaxArray(null);
 		
 		// Unit7_5Searching searching = new Unit7_5Searching();
 		//System.out.println(searching.whereIsTheNumber(3, arrayListInts));
@@ -47,24 +50,8 @@ public class Unit7Main {
 		
 		
 		ArrayList<String> Class = new ArrayList<String>();
-		Class.add("Alfonso, Gustavo");
-		//Class.add("Andretta, Jan");
-		//Class.add("Arisso, Francisco");
-		//Class.add("Callejas, Roberto");
-		//Class.add("Clark, Michael");
-		Class.add("Cunat, Javier");
-		//Class.add("Dickens, Matthew");
-		Class.add("Fernandez, Alessandro");
-		//Class.add("Ferrer, Christopher");
-		//Class.add("Gonzalez, Erick");
-		//Class.add("Gonzalez, Samuel");
-		//Class.add("Kakouris, George");
-		Class.add("Martinez, Sebastian");
-		Class.add("Quintana, Andrew");
-		Class.add("Sedano, Nicolas");
-		//Class.add("Siman, Omar");
-		Class.add("Solorzano, Felipe");
-		//Class.add("Tonanez, Lucas");
+		
+		
 		
 		//System.out.print(Class);
 		//sorting.randomTeams(Class);
