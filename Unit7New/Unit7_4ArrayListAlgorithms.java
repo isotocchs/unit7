@@ -16,7 +16,7 @@ public class Unit7_4ArrayListAlgorithms {
 		return maxValue;
 	}
 	
-	private double findMaxArrayList(ArrayList<Double> arrayListName) {
+	public double findMaxArrayList(ArrayList<Double> arrayListName) {
 		
 		double max = arrayListName.get(0);
 		
